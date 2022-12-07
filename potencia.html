@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Potenciação</title>
+</head>
+<body>
+    
+    <header>
+        <div id="superior">
+            <ul>
+                <li><a href="index.html" target="_self">Tabuada</a></li>
+                <li><a href="multiplo.html">Múltiplos</a></li>
+                <li><a href="potencia.html">Potenciação</a></li>
+            </ul>
+            <h1>Potenciação</h1>
+        </div>
+        
+    </header>
+
+    <section>
+        <div>
+            <p>Qual número você quer elevar?</p>
+            <input type="number" class="form" id="base">
+
+            <p>Qual a potência?</p>
+            <input type="number" class="form" id="exp">
+            <p>
+                <button class="botao" onclick="Potencia()">Calcular</button>
+            </p>
+        </div>
+        <div id="resultado">
+            Preencha os valores acima!
+        </div>
+    </section>
+
+    <script src="tabuada.js"></script>
+</body>
+</html>
